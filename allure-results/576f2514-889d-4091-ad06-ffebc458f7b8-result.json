@@ -1,0 +1,57 @@
+{
+    "name": "aboutTest",
+    "start": 1630263502308,
+    "stop": 1630263505266,
+    "stage": "finished",
+    "description": "Test to verify the about page",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "576f2514-889d-4091-ad06-ffebc458f7b8",
+    "historyId": "8ac4e116e5331e17891bd85e0674b3a",
+    "fullName": "test.AboutTest.aboutTest",
+    "labels": [
+        {
+            "name": "package",
+            "value": "test"
+        },
+        {
+            "name": "testClass",
+            "value": "test.AboutTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "aboutTest"
+        },
+        {
+            "name": "suite",
+            "value": "test.AboutTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(1225)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "severity",
+            "value": "normal"
+        }
+    ]
+}

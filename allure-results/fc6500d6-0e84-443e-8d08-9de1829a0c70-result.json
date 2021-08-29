@@ -1,0 +1,57 @@
+{
+    "name": "addNoteTest",
+    "start": 1630263255885,
+    "stop": 1630263261149,
+    "stage": "finished",
+    "description": "Test to verify the add note functionality",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "fc6500d6-0e84-443e-8d08-9de1829a0c70",
+    "historyId": "cc06b7d09741a91ceadcad82f3c35317",
+    "fullName": "test.NoteCrudTest.addNoteTest",
+    "labels": [
+        {
+            "name": "package",
+            "value": "test"
+        },
+        {
+            "name": "testClass",
+            "value": "test.NoteCrudTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "addNoteTest"
+        },
+        {
+            "name": "suite",
+            "value": "test.NoteCrudTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(1210)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "severity",
+            "value": "critical"
+        }
+    ]
+}

@@ -9,6 +9,7 @@ open class Page {
 
     val backButton = "Navigate up"
 
+    //@Step("Clicking on navigate up")
     fun clickOnNavigateUp(){
         clickWithContentDescription(backButton)
     }

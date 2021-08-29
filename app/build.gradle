@@ -3,12 +3,12 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
+
 def keystorePropertiesFile = rootProject.file("keystore.properties")
 def keystoreProperties = new Properties()
 if (keystorePropertiesFile.exists()) {
     keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 }
-
 
 android {
     compileSdkVersion 30
@@ -21,7 +21,7 @@ android {
         versionName "6.8.1"
         setProperty("archivesBaseName", "notes")
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "io.qameta.allure.android.runners.AllureAndroidJUnitRunner"
         testInstrumentationRunnerArguments clearPackageData: 'true'
     }
 
@@ -73,4 +73,9 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     androidTestImplementation 'androidx.test:runner:1.4.0'
     androidTestImplementation 'androidx.test:rules:1.4.0'
+
+    testImplementation "io.qameta.allure:allure-kotlin-model:2.2.6"
+    testImplementation "io.qameta.allure:allure-kotlin-commons:2.2.6"
+    testImplementation "io.qameta.allure:allure-kotlin-junit4:2.2.6"
+    androidTestImplementation "io.qameta.allure:allure-kotlin-android:2.2.6"
 }

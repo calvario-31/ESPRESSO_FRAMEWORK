@@ -1,0 +1,57 @@
+{
+    "name": "verifyMenuContent",
+    "start": 1630263507656,
+    "stop": 1630263509381,
+    "stage": "finished",
+    "description": "Test to verify the menu content page",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "b614d079-b8cf-4802-9379-1faade3602b6",
+    "historyId": "b1de785a58008c51f4a7b31dd85e15ac",
+    "fullName": "test.MainPageTest.verifyMenuContent",
+    "labels": [
+        {
+            "name": "package",
+            "value": "test"
+        },
+        {
+            "name": "testClass",
+            "value": "test.MainPageTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "verifyMenuContent"
+        },
+        {
+            "name": "suite",
+            "value": "test.MainPageTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(1225)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "severity",
+            "value": "critical"
+        }
+    ]
+}

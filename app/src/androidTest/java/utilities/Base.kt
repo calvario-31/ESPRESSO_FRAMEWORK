@@ -1,11 +1,10 @@
 package utilities
 
 import androidx.test.ext.junit.rules.ActivityScenarioRule
-import androidx.test.ext.junit.runners.AndroidJUnit4
-import androidx.test.rule.GrantPermissionRule
 import com.simplemobiletools.notes.pro.activities.MainActivity
+import io.qameta.allure.android.rules.LogcatRule
+import io.qameta.allure.android.rules.ScreenshotRule
 import org.junit.Rule
-import org.junit.runner.RunWith
 
 
 open class Base {
@@ -14,4 +13,10 @@ open class Base {
 
     @get:Rule
     var listeners: Listeners = Listeners()
+
+    @get:Rule
+    val screenshotRule = ScreenshotRule(mode = ScreenshotRule.Mode.FAILURE, screenshotName = "screenshot failure")
+
+    @get:Rule
+    val logcatRule = LogcatRule()
 }

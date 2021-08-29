@@ -1,0 +1,74 @@
+{
+    "name": "aboutTest",
+    "start": 1630261429530,
+    "stop": 1630261433429,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Opening the menu",
+            "start": 1630261430536,
+            "stop": 1630261431353,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+        {
+            "source": "49514a08-c6e9-4906-9cb3-22ffde4527d5-attachment.png",
+            "name": "screenshot failure",
+            "type": "image/png"
+        }
+    ],
+    "parameters": [
+    ],
+    "uuid": "60973de4-917f-4562-b5f5-699a99d7f518",
+    "historyId": "8ac4e116e5331e17891bd85e0674b3a",
+    "fullName": "test.AboutTest.aboutTest",
+    "labels": [
+        {
+            "name": "package",
+            "value": "test"
+        },
+        {
+            "name": "testClass",
+            "value": "test.AboutTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "aboutTest"
+        },
+        {
+            "name": "suite",
+            "value": "test.AboutTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(1190)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

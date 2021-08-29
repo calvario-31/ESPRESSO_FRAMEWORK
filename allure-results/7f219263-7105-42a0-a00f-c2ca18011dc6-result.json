@@ -1,0 +1,121 @@
+{
+    "name": "verifySettingsTest",
+    "start": 1630267554418,
+    "stop": 1630267556616,
+    "stage": "finished",
+    "description": "Test to verify the settings page",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Verifying options page",
+            "start": 1630267554546,
+            "stop": 1630267554933,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Going to settings page",
+            "start": 1630267554934,
+            "stop": 1630267555828,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+                {
+                    "name": "Opening the menu",
+                    "start": 1630267554934,
+                    "stop": 1630267555371,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [
+                    ],
+                    "attachments": [
+                    ],
+                    "parameters": [
+                    ]
+                }
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Verifying settings page",
+            "start": 1630267555829,
+            "stop": 1630267555874,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "7f219263-7105-42a0-a00f-c2ca18011dc6",
+    "historyId": "a72aa5bee7091cad3a6d28de9fba4b3",
+    "fullName": "test.SettingsTest.verifySettingsTest",
+    "labels": [
+        {
+            "name": "package",
+            "value": "test"
+        },
+        {
+            "name": "testClass",
+            "value": "test.SettingsTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "verifySettingsTest"
+        },
+        {
+            "name": "suite",
+            "value": "test.SettingsTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(1246)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "severity",
+            "value": "critical"
+        }
+    ]
+}

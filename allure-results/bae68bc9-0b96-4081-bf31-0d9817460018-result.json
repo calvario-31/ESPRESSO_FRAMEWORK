@@ -1,0 +1,89 @@
+{
+    "name": "verifyMenuContent",
+    "start": 1630267548571,
+    "stop": 1630267550117,
+    "stage": "finished",
+    "description": "Test to verify the menu content page",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Opening the menu",
+            "start": 1630267548692,
+            "stop": 1630267549491,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Verifying the menu options",
+            "start": 1630267549493,
+            "stop": 1630267549522,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "bae68bc9-0b96-4081-bf31-0d9817460018",
+    "historyId": "b1de785a58008c51f4a7b31dd85e15ac",
+    "fullName": "test.MainPageTest.verifyMenuContent",
+    "labels": [
+        {
+            "name": "package",
+            "value": "test"
+        },
+        {
+            "name": "testClass",
+            "value": "test.MainPageTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "verifyMenuContent"
+        },
+        {
+            "name": "suite",
+            "value": "test.MainPageTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(1246)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "severity",
+            "value": "critical"
+        }
+    ]
+}
