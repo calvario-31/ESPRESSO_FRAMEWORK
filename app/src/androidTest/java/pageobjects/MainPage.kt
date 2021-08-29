@@ -25,7 +25,7 @@ object MainPage: Page() {
     }
 
     fun typeTextBody(text: String){
-        step("Verifying text body"){
+        step("Typing text body"){
             Logs.info("Typing the text on the text panel")
             Logs.debug("Text: $text")
             typeTextIntoFocusedView(text)
