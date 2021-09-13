@@ -1,16 +1,14 @@
-# ESPRESSO_NOTES_APK
-
-Espresso framework with junit and allure reports
+# ESPRESSO FRAMEWORK
 
 To run:
 
- ./gradlew connectedAndroidTest
+    ./gradlew connectedAndroidTest
 
 To get the report:
 
-adb pull /sdcard/allure-results
+    adb pull /sdcard/allure-results
 
 To see the report:
 
-allure serve allure-results
+    allure serve allure-results
 
